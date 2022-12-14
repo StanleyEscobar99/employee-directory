@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  margin: 10px;
+  width: 75%;
+  height: 75%;
+  font-size: 15px;
+  font-family:  Georgia, 'Times New Roman', Times, serif, sans-serif;
+  text-align: center;
+  border: black 4px solid;
+  background-color: #ffffff;
+}
+.list-img {
+  width: 45px;
+  border-radius: 45%;
+  padding: 3px;
+}
+.Head {
+  background-color: #ffffff;
+  font-size: 30px;
+  padding: 5px;
+}
+.Search {
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  height: 25px;
+  border: black 1px solid;
+}
+.Search-input {
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width: 80%;
+  border-radius: 45px;
+  padding-left: 15px;
+}
+.employee {
+  background-color: #ffffff;
+  margin: 10px;
+  display: flex;
+  padding: 2px;
+  border: black 1.5px solid;
+  border-radius: 9px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-name {
+  display: flex;
+  font-size: 18px;
+}
+.list-title {
+  display: flex;
+  color: #a6a6a6;
+  font-size: 12px;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+p{
+  color: #666666;
+}
+.EmpName {
+  color: black;
+  font-size: 25px;
+}
+.EmpIMG {
+  padding-top: 10px; 
+  border-radius: 50%;
+  height: 50px;
+}
+
+.backButton {
+  display: flex;
+  margin-right: 90%;
+  margin-top: 25%;
+}
+.EmpHead {
+  background-color: #ffffff;
+  display: flex;
+  border-bottom: black 3px solid;
+}
+.EmpHead > h1 {
+  margin: auto;
+}
